@@ -1,5 +1,3 @@
-
-```markdown
 # Día 9: Contar Ocurrencias de un Carácter en una Cadena
 
 ## Objetivo  

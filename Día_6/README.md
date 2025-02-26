@@ -1,5 +1,3 @@
-
-```markdown
 # Día 6: Invertir un Array (sin usar reverse)
 
 ## Objetivo  

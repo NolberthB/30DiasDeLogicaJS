@@ -1,5 +1,3 @@
-
-```markdown
 # Día 7: Sumar Elementos de un Array
 
 ## Objetivo  

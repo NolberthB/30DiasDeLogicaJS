@@ -1,5 +1,3 @@
-
-```markdown
 # Día 5: Encontrar el Mayor Número en un Array
 
 ## Objetivo  

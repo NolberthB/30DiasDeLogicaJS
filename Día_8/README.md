@@ -1,5 +1,3 @@
-
-```markdown
 # Día 8: Filtrar Números Pares de un Array
 
 ## Objetivo  

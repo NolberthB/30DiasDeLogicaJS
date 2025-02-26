@@ -1,5 +1,3 @@
-
-```markdown
 # Día 10: Número Fibonacci
 
 ## Objetivo  
