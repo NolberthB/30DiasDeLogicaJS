@@ -1,18 +1,23 @@
 // Declara una funcion para encontrar el mayor de un array
-function encontrarMayor(arr){
-    // Initialize a counter
+function encontrarMayor(arr) {
+    if(!Array.isArray(arr)) return 'No es un array'
+    if(arr.length === 0) return 'El array esta vacio'
+
     let contador = []
-    // Iterate through the array
-    for(let i = 0; i <= arr.length; i++){
-        // If the element is greater than the counter
+    for(let i = 0; i < arr.length; i++){
         if(arr[i] > contador){
-            // Assign the element to the counter
             contador = arr[i]
         }
     }
-    // Return the counter
-    return contador
+    return contador    
 }
 
-console.log(encontrarMayor([1,20,3,4,5,10])); // 5
-console.log(encontrarMayor([3, 7, 2, 9, 5])); // Debería imprimir 9
+console.log(encontrarMayor([9,2,3]))
+
+
+console.log(encontrarMayor({'String': 'obj'})) // Error de tipo de dato
+console.log(encontrarMayor([])); // "El array está vacío"
+console.log(encontrarMayor([31, 10, 3, 4, 5, 20])); // 20
+console.log(encontrarMayor([1,24,3,4,5])) // Deveria imprimir 5
+console.log(encontrarMayor([10,4,3,9,5])) // Deveria imprimir 5
+
